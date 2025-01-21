@@ -1,7 +1,37 @@
-h2{
-       background-color: red;
-       color: white;
-       padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+       font-family: Quicksand ;
+}
+
+
+.logo-title{
+       font-size: 2rem;
+       font-weight: 800;
+       margin:auto 0;       
+       padding-left: 15px;
+}
+.logo{
        display: flex;
-       justify-content: center;
+}
+.logo>img{
+       width: 60px;
+       height: 60px;
+}
+.nav{
+       display: flex;
+       justify-content: space-between;
+}
+.navbar{
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       list-style: none;
+       text-decoration: none;
+}
+.navbar>li>a{
+       text-decoration: none;
+}
+.contact-btn{
+
 }
